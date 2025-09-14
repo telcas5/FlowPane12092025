@@ -1,0 +1,6 @@
+.flow-pane {
+    -fx-border-color: blue;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;  /* Opcional: bordes redondeados */
+    -fx-padding: 10px;       /* Opcional: espacio interno */
+}

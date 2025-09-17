@@ -1,33 +1,43 @@
-// FlowPaneAlignment.java
 package es.telmocas;
+
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 
+/**
+ * JavaFX App
+ */
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) throws Exception {
-        // Cargar el archivo FXML
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/vista.fxml"));
-        Parent root = loader.load();
+    public void start(Stage stage) {
+        try{
+            FXMLLoader loaded = new FXMLLoader(getClass().getResource("/fxml/flowpane12Sep.fxml"));
+            Scene scene = new Scene(loaded.load(), 600, 100);
 
-        // Crear la escena
-        Scene scene = new Scene(root);
+            // Comprobar que el archivo de css existe y sino mostrar una alerta
+            var archivoCSS = getClass().getResource("/css/estilos.css");
+            if(archivoCSS != null){
+                scene.getStylesheets().add(archivoCSS.toExternalForm());
+            } else{
+                new Alert(Alert.AlertType.INFORMATION, "No se ha podido cargar el CSS").showAndWait();
+            }
 
-        // Cargar el CSS
-        scene.getStylesheets().add(getClass().getResource("/estilo.css").toExternalForm());
+            stage.setTitle("FlowPane Alignment");
+            stage.setScene(scene);
+            stage.setResizable(false);
+            stage.show();
 
-        // Configurar y mostrar la ventana
-        stage.setTitle("Mi Aplicación JavaFX");
-        stage.setScene(scene);
-        stage.show();
+        } catch (Exception e) {
+            new Alert(Alert.AlertType.ERROR, "Error al intentar cargar la aplicación").showAndWait();
+        }
     }
 
     public static void main(String[] args) {
-        launch(args);
+        launch();
     }
+
 }

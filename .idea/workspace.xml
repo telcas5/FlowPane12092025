@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecb13fc5-abca-4284-96d8-9024e2a0af1b" name="Changes" comment="Segundo commit con el fxml y el css">
+    <list default="true" id="ecb13fc5-abca-4284-96d8-9024e2a0af1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/telmocas/Lanzador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xml/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/telmocas/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/telmocas/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/telmocas/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/vista.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/telmocas/fxml/vista.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,16 +38,17 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/telcas5/FlowPane12092025.git&quot;,
-    &quot;accountId&quot;: &quot;5a1661b6-7ecf-4ec8-9849-901ccb55ef92&quot;
+    &quot;accountId&quot;: &quot;f31ab84d-6a15-4b02-8017-f2c9bdc2b9bb&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="32b7vYJ57oxHMcsu2VxA3GbSbct" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,30 +56,59 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Application.MainApp.executor": "Run",
+    "Application.Lanzador.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.FlowPane12092025 [clean].executor": "Run",
+    "Maven.FlowPane12092025 [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.FlowPane12092025 [org.openjfx:javafx-maven-plugin:0.0.6:run].executor": "Run",
+    "Maven.FlowPane12092025 [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="es.telmocas" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/css" />
-      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
+      <recent name="C:\Users\dm2\FlowPane12092025\src\main\resources" />
+      <recent name="C:\Users\dm2\FlowPane12092025\src\main\resources\es\telmocas" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="es.telmocas.App" />
+      <module name="FlowPane12092025" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="es.telmocas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -84,16 +120,10 @@
       <option name="presentableId" value="Default" />
       <updated>1757677650187</updated>
       <workItem from="1757677651600" duration="143000" />
+      <workItem from="1758182719919" duration="3023000" />
+      <workItem from="1758186580422" duration="885000" />
+      <workItem from="1758188069797" duration="3040000" />
     </task>
-    <task id="LOCAL-00001" summary="Segundo commit con el fxml y el css">
-      <option name="closed" value="true" />
-      <created>1757782715236</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1757782715236</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,9 +139,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Segundo commit con el fxml y el css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit con el fxml y el css" />
   </component>
 </project>

@@ -50,7 +50,12 @@
             <version>1.3.0</version>
         </dependency>
         <!-- Dependencias para el logger-->
-
+        <!-- Dependencia JavaDoc -->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.11.2</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -125,6 +130,12 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- Plugin JavaDoc -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.11.3</version>
             </plugin>
         </plugins>
     </build>
